@@ -1,0 +1,101 @@
+# News sources configuration for the AI Newsletter
+NEWS_SOURCES = {
+    "AI": {
+        "name": "Artificial Intelligence",
+        "sources": [
+            {
+                "name": "OpenAI Blog",
+                "url": "https://openai.com/blog/",
+                "rss": "https://openai.com/blog/rss.xml",
+                "description": "Latest updates from OpenAI"
+            },
+            {
+                "name": "Anthropic Blog",
+                "url": "https://www.anthropic.com/news",
+                "rss": "https://www.anthropic.com/news/rss.xml",
+                "description": "AI safety and research from Anthropic"
+            },
+            {
+                "name": "Google AI Blog",
+                "url": "https://ai.googleblog.com/",
+                "rss": "https://ai.googleblog.com/feeds/posts/default",
+                "description": "Google's AI research and developments"
+            },
+            {
+                "name": "DeepMind Blog",
+                "url": "https://deepmind.google/discover/blog/",
+                "rss": "https://deepmind.google/discover/blog/rss.xml",
+                "description": "DeepMind's latest AI breakthroughs"
+            }
+        ]
+    },
+    "Machine Learning": {
+        "name": "Machine Learning",
+        "sources": [
+            {
+                "name": "Towards Data Science",
+                "url": "https://towardsdatascience.com/",
+                "rss": "https://towardsdatascience.com/feed",
+                "description": "Community-driven ML and data science content"
+            },
+            {
+                "name": "Distill",
+                "url": "https://distill.pub/",
+                "rss": "https://distill.pub/rss.xml",
+                "description": "Clear explanations of machine learning concepts"
+            },
+            {
+                "name": "Papers with Code",
+                "url": "https://paperswithcode.com/",
+                "rss": "https://paperswithcode.com/feed",
+                "description": "Latest ML papers with code implementations"
+            }
+        ]
+    },
+    "Tech News": {
+        "name": "Technology News",
+        "sources": [
+            {
+                "name": "TechCrunch",
+                "url": "https://techcrunch.com/",
+                "rss": "https://techcrunch.com/feed/",
+                "description": "Latest technology news and startup updates"
+            },
+            {
+                "name": "The Verge",
+                "url": "https://www.theverge.com/",
+                "rss": "https://www.theverge.com/rss/index.xml",
+                "description": "Technology, science, art, and culture"
+            },
+            {
+                "name": "Ars Technica",
+                "url": "https://arstechnica.com/",
+                "rss": "https://feeds.arstechnica.com/arstechnica/index/",
+                "description": "Technology news and analysis"
+            }
+        ]
+    },
+    "Research": {
+        "name": "AI Research",
+        "sources": [
+            {
+                "name": "arXiv AI",
+                "url": "https://arxiv.org/list/cs.AI/recent",
+                "rss": "http://arxiv.org/rss/cs.AI",
+                "description": "Latest AI research papers from arXiv"
+            },
+            {
+                "name": "Nature Machine Intelligence",
+                "url": "https://www.nature.com/natmachintell/",
+                "rss": "https://www.nature.com/natmachintell.rss",
+                "description": "Scientific research in machine intelligence"
+            },
+            {
+                "name": "MIT Technology Review",
+                "url": "https://www.technologyreview.com/",
+                "rss": "https://www.technologyreview.com/feed/",
+                "description": "MIT's analysis of emerging technologies"
+            }
+        ]
+    }
+}
