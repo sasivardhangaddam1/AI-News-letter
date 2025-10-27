@@ -1,0 +1,9 @@
+streamlit
+supabase
+groq
+firecrawl-py
+resend
+python-dotenv
+requests
+beautifulsoup4
+feedparser
